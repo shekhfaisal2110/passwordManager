@@ -1,12 +1,49 @@
-# React + Vite
+# 🔐 Password Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, secure, and responsive **Password Manager** built with React, Tailwind CSS, and ShadCN UI. Manage your login credentials safely — without any server involved.
 
-Currently, two official plugins are available:
+🌐 [Live Demo »](https://pass-wod-manager.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔒 Store passwords securely using browser `localStorage`
+- 🌓 Beautiful responsive UI with dark mode
+- 📝 Add website name, username/email, and password
+- 🔍 Search your stored credentials
+- 🗂️ Export/Import your password data
+- 🧼 Clean and intuitive UI
+
+---
+
+## 📦 Tech Stack
+
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [ShadCN UI](https://ui.shadcn.dev/)
+- [Lucide Icons](https://lucide.dev/)
+- Vite
+
+---
+
+## 🔐 Security Note
+
+All data is stored **locally** in your browser using `localStorage`. This means:
+
+✅ **Only you** can access your saved passwords.  
+🔐 Your data is **never sent to any server** — it stays on your device.  
+🔄 You can **export and import** your data for backup or recovery.
+
+> 📌 This app is ideal for those who prefer local-first password management.  
+> 💡 No internet connection is needed after initial load.
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/your-username/password-manager.git
+cd password-manager
+npm install
+npm run dev
